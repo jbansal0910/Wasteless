@@ -1,0 +1,66 @@
+/* div{
+    border: 1px solid red;
+} */
+.body{
+    background:rgb(220,220,220); 
+}
+.userdata{
+  border: 1px solid black;
+  background: #ffffff;
+}
+.userproducts{
+    border: 1px solid black; 
+    padding: 14px;
+    background: #ffffff;
+}
+.userimage{
+ height: 180px;
+ width:200px;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ border-right: 1px solid grey;
+}
+.ui{
+    height: 100px;
+    border-radius:50%;
+    
+}
+.active{
+    border-top: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+}
+.halt{
+    border-bottom: 0.5px solid grey;
+
+}
+.userinfo{
+width:600px;
+padding: 27px;
+}
+@media only screen and (min-width: 600px) {
+
+.userdata{
+
+}
+.sp{
+ font-size: 21px;
+}
+.userimage{
+    height: 280px;
+    width:250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .ui{
+       height: 200px;
+       border-radius:23px;
+       
+   }
+   .userinfo{
+   width:600px;
+   font-size:1.3em;
+   }
+}
